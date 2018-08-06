@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+  font-size: 40px
+}
+
+h2{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300;
+}
+
+.Typist .Cursor--blinking {
+  opacity: 1;
+  animation: blink 1s linear infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
